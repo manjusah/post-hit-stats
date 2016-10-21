@@ -1,0 +1,200 @@
+.wpeka-panel-heading{
+	background-color:#9c9c9c;
+	color: #fff;
+	border-bottom: 1px solid transparent;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        padding: 12px 20px;
+        width:95%;   
+}
+
+#tabbed label {
+    cursor: unset;    
+    margin-bottom: 5px;
+    min-width: 100px;
+}
+   
+#tabbed a {
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+
+#tabbed button {
+    margin: 0 0 10px 20px;
+    padding: 6px;
+}
+
+
+input[type="radio"]:checked + label::before {
+    color: #888;
+}
+
+#tabbed input:checked + label.tabs.shadow {
+    box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 0.3);
+}
+
+#tabbed label.tabs:hover, #tabbed label.tabs:focus, #tabbed input:checked + label.tabs {
+}
+
+#tabbed input:checked + label.tabs {
+    background: none repeat scroll 0 0 #fff;
+    color: #333;
+}
+
+.tabs.shadow {
+    border:solid 1px #6e98e3;
+    box-shadow: none !important;
+    z-index: 99;
+    border-bottom: #ffffff;
+}
+
+
+.tab-2 > select {
+    margin-right: 20px;
+    padding:10px;
+}
+
+.btn-info{color:#ffffff;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25); background:#6e98e3; border-bottom:solid 2px #4877cb; }
+.btn-info:active,.btn-info.active{background-color:#4877cb \9;}
+
+
+.btn.btn-info:hover{
+	background: #4877cb;
+}
+
+.btn-group>.btn{position:relative; border-radius:3px; border:solid 1px #4877cb;}
+
+.panel-heading a {
+    background:url(img/down.png) no-repeat right 10px center;
+    color: #4877cb!important;
+}
+.panel-heading a{
+	padding:0;
+}
+.panel-heading a:focus{
+	
+	background:#eee url(img/up.png) no-repeat right 10px center;
+}
+
+
+.well{min-height:auto;padding:19px;margin-bottom:10px !important;background-color:#f5f5f5;border:1px solid #e3e3e3;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);}.well blockquote{border-color:#ddd;border-color:rgba(0, 0, 0, 0.15);}
+
+.well > label {
+    display: inline-block;
+    min-width: 130px;
+    padding: 0 5px;
+}
+
+.label-success, .badge-success {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    color: #999;
+    text-shadow: none;
+}
+
+.label.label-success {
+    display: block;
+    padding: 3px 10px !important;
+    width: 100%;
+}
+
+#tabbed .tab-2 > a {
+    display: inline;
+}
+.colpick{
+	z-index:999;
+	
+}
+.width-25{
+	width:25%;
+}
+
+.width-15{
+	width:15%;
+}
+.panel.panel-default {
+    border-bottom: medium 1px !important;
+    margin-bottom: 5px !important;
+}
+
+.inside > a{
+	color:#4877cb!important;
+	font-size:15px!important;
+	text-decoration:underline!important;
+	
+}
+.title-large{
+font-size: 16px;
+	color: #4877cb;
+	text-transform: uppercase;
+	border-bottom: solid 2px #f0f0f0;
+	padding-bottom: 5px;
+	display: block;
+}
+.title-mini{
+    color: #333;
+    font-size: 14px!important;
+    font-weight: 400!important;
+    cursor:unset;
+}
+.title-subheader{
+	color: #333;
+    font-size: 15px!important;
+    font-weight: 400!important;
+	border-bottom: 1px solid #ddd;
+    display: block;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px;
+}
+
+.title-subheader > input["text"]{
+	width:50%;
+}
+
+.font-mini{
+    color: #000;
+    font-size: 14px!important;
+    font-weight: 400!important;
+    float:left;    
+    min-width: 75px;
+}
+
+.featureadinput {
+    margin-bottom: 10px;
+}
+.wpeka_dashboard_wrapper{
+	width: 100%;
+	max-width: 1147px;
+	background: #225277;
+	padding: 20px 30px;
+	border-radius: 4px;
+	color: #ffffff !important;
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;   
+}
+.wpeka_dashboard_wrapper h2{
+	font-size: 18px;
+	font-weight: 600;
+	display: inline-block;
+	margin-right: 4%;
+	color: #ffffff;
+}
+.wpeka_dashboard_wrapper input[type="submit"]{
+	background: #e94757;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 600;
+	border: solid 1px #e94757;
+	box-shadow: none;
+	border-radius: 4px;
+	height: 40px;
+	display: inline-block;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+.wpeka_dashboard_wrapper  form{
+	display: inline-flex;
+}
